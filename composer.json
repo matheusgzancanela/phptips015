@@ -1,0 +1,31 @@
+{
+  "name": "matheusgzancanela/phptips015",
+  "description": "CARRINHO DE COMPRAS EM MVC COM AJAX E PHP | PHP TIPS #015",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Matheus G. Zancanela",
+      "email": "matheusgzpessoal@gmail.com",
+      "role": "Developer",
+      "homepage": "https://github.com/matheusgzancanela"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Config.php"
+    ]
+  },
+  "require": {
+    "ext-json": "*",
+    "coffeecode/router": "1.0.*",
+    "coffeecode/datalayer": "1.1.*",
+    "league/plates": "v4.0.0-alpha"
+  }
+}
